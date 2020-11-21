@@ -12,53 +12,109 @@
 <body>
     <div class="container">
         <header>
+            <!-- Star Wars logo, social media icons, main nav bar -->
+
             <div class="search-bar">
-                <input id="search-star-wars" type="text" placeholder="Search Star Wars">
+                <input id="search-star-wars" name="q" type="text" placeholder="Search Star Wars" value=""
+                    spellcheck="false" autocorrect="off" autocapitalize="off" autocomplete="off">
             </div>
+
             <div class="social-icons">
-                <a href="https://www.facebook.com/StarWars" id="facebook"><i class="fab fa-facebook"></i>
-                    <a href="https://www.instagram.com/starwars/" id="instagram"><i class="fab fa-instagram"></i>
+                <a href="https://www.facebook.com/StarWars"><i class="fab fa-facebook"></i>
+                    <a href="https://www.instagram.com/starwars/"><i class="fab fa-instagram"></i>
                         <a href="https://starwars.tumblr.com/"><i class=" fab fa-tumblr"></i>
                             <a href="https://twitter.com/starwars"><i class="fab fa-twitter"></i>
                                 <a href="https://www.youtube.com/user/starwars"><i class="fab fa-youtube"></i>
                                     KIDS
             </div>
+
             <div class="star-wars-logo">
-                <img src="https://www.5minutesformom.com/wp-content/uploads/2015/08/Star-Wars-Logo.png" width="300px"
-                    height="200px">
+                <img
+                    src="https://static-mh.content.disney.io/starwars/assets/navigation/sw_logo_stacked-336c62367939.png">
             </div>
+
             <div class="nav-bar">
-                <div style="flex-basis: 90px"></div>
-                <div id="news-nav"><a href="https://www.starwars.com/news">News + Blog</div>
-                <div id="video-nav"><a href="https://www.starwars.com/video">Video</div>
+                <div><a href="https://www.starwars.com/news">News + Blog</div>
+                <div><a href="https://www.starwars.com/video">Video</div>
                 <div><a href="https://www.starwars.com/interactive">Interactive</div>
-                <div id="films-nav"><a href="https://www.starwars.com/films">Films</div>
-                <div id="series-nav"><a href="https://www.starwars.com/series">Series</div>
-                <div id="community-nav"><a href="https://www.starwars.com/community">Community</div>
-                <div id="databank-nav"><a href="https://www.starwars.com/databank">Databank</div>
-                <div style="flex-basis: 90px"></div>
+                <div><a href="https://www.starwars.com/films">Films</div>
+                <div><a href="https://www.starwars.com/series">Series</div>
+                <div><a href="https://www.starwars.com/community">Community</div>
+                <div><a href="https://www.starwars.com/databank">Databank</div>
             </div>
+
         </header>
 
-        <div class="slider">
-            <img src="https://cdn.mos.cms.futurecdn.net/udmnAbpe6FgLWWF4QXaADm.jpg" alt="The Mandelorian" width="1000"
-                height="500">
-        </div>
+        <div class="main">
+            <div class="slider">
+                <!--Sliding advertisements, streaming buttons-->
+                <img src="https://cdn.mos.cms.futurecdn.net/udmnAbpe6FgLWWF4QXaADm.jpg" alt="The Mandalorian"
+                    width="1000" height="500">
+            </div>
 
-        <div class="slider-adverts">
-            <div style="flex-basis: 90px;"></div>
-            <div>The Mandalorian <br> Season2</div>
-            <div>The Lego Star Wars <br> Holiday Special is <br> Here </div>
-            <div>This Week! <br> In Star Wars</div>
-            <div>Mando Mondays are <br> Here!</div>
-            <div style="flex-basis: 90px;"></div>
-        </div>
+            <div class="slider-adverts">
+                <div style="flex-basis: 90px;"></div>
+                <div>The Mandalorian <br> Season2</div>
+                <div>The Lego Star Wars <br> Holiday Special is <br> Here </div>
+                <div>This Week! <br> In Star Wars</div>
+                <div>Mando Mondays are <br> Here!</div>
+                <div style="flex-basis: 90px;"></div>
+            </div>
 
-        <div class="streaming-buttons">
-            <button id="watch-now-button">Watch Now</button>
-            <button id="explore-button">Explore</button>
-        </div>
-    </div>
+            <div class="stream-now-ad"><img
+                    src="https://lumiere-a.akamaihd.net/v1/images/the-mandalorian-ch-12-single-hero-desktop_40c650ee.jpeg?region=0,0,1200,510">
+            </div>
+
+            <div class="mando-section">
+
+                <!--Grid of Mandalorian promotional ads-->
+
+                <div class="row1">
+                    <!--Mando download txt, baby yoda pic-->
+                    <div class="box1-image"><img
+                            src="https://lumiere-a.akamaihd.net/v1/images/the-mandalorian-chapter-11-download-concept-art-tall-h9_abc4fa94.jpeg?region=0%2C0%2C1536%2C864"
+                            height="150px" width="266px">
+                    </div>
+                    <div class="box1-text">
+                        <h4>Mando Download - <br> Chapter 11: The <br> Heiress</h4>
+                    </div>
+
+                    <div class="box2">
+                        <!--Bounty Hunter txt, pic of mando-->
+                        <div class="box2-image"><img
+                                src="https://lumiere-a.akamaihd.net/v1/images/the-mandalorian-ch11-highlights-tall-v2-3h947fh_c2eb1a80.jpeg?region=0%2C0%2C1536%2C864"
+                                height="150px" width="266px" </div>
+                            <div class="box2-text">
+                                <h4>Bounty Hunting <br> Highlights: "Chapter <br> 11: The Heiress"</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="row2">
+                    <div class="box3">
+                        <div class="box3-iframe"><iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/kb2K2wPFVUQ" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="box3-text">Season 1 Recap | The Mandalorian
+
+                        </div>
+                    </div>
+
+                    <div class="box4">
+                        <div class="box4-iframe"><iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/eW7Twd85m2g" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="box4-text">Season 2 Official Trailer | The Mandalorian
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
 </body>
 
 </html>
